@@ -1,0 +1,24 @@
+.mg-top-button {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 90;
+  width: 48px;
+  height: 48px;
+  border: none;
+  border-radius: 50%;
+  background: var(--coral);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: var(--shadow-soft);
+}
+
+@media (min-width: 768px) {
+  .mg-top-button {
+    right: 40px;
+    bottom: 40px;
+  }
+}

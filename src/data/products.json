@@ -1,0 +1,94 @@
+{
+  "best": [
+    {
+      "id": "best-1",
+      "name": "몽글 펭귄 니트 인형",
+      "category": "장난감",
+      "price": 24000,
+      "image": "/images/best/best1.jpg",
+      "badge": "BEST"
+    },
+    {
+      "id": "best-2",
+      "name": "몽글 꽥꽥 오리 인형",
+      "category": "장난감",
+      "price": 22000,
+      "image": "/images/best/best2.jpg",
+      "badge": "BEST"
+    },
+    {
+      "id": "best-3",
+      "name": "몽글 코랄 케이블 니트",
+      "category": "의류",
+      "price": 32000,
+      "image": "/images/best/best3.jpg",
+      "badge": "BEST"
+    },
+    {
+      "id": "best-4",
+      "name": "몽글 데일리 간식 파우치",
+      "category": "간식",
+      "price": 12000,
+      "image": "/images/best/best4.jpg",
+      "badge": null
+    },
+    {
+      "id": "best-5",
+      "name": "몽글 말랑 세라믹 식기",
+      "category": "사료",
+      "price": 28000,
+      "image": "/images/best/best5.jpg",
+      "badge": null
+    },
+    {
+      "id": "best-6",
+      "name": "몽글 코튼 매듭 로프볼",
+      "category": "장난감",
+      "price": 14000,
+      "image": "/images/best/best6.jpg",
+      "badge": null
+    },
+    {
+      "id": "best-7",
+      "name": "몽글 구름 극세사 담요",
+      "category": "위생",
+      "price": 34000,
+      "image": "/images/best/best7.jpg",
+      "badge": null
+    }
+  ],
+  "new": [
+    {
+      "id": "new-1",
+      "name": "몽글 노랑 방수 우비",
+      "category": "산책",
+      "price": 34000,
+      "image": "/images/new/new1.jpg",
+      "badge": "NEW"
+    },
+    {
+      "id": "new-2",
+      "name": "몽글 가죽 이름표 목걸이",
+      "category": "산책",
+      "price": 26000,
+      "image": "/images/new/new2.jpg",
+      "badge": "NEW"
+    },
+    {
+      "id": "new-3",
+      "name": "몽글 수제 트릿 유리병",
+      "category": "간식",
+      "price": 18000,
+      "image": "/images/new/new3.jpg",
+      "badge": "NEW"
+    },
+    {
+      "id": "new-4",
+      "name": "몽글 구름 도넛 방석",
+      "category": "위생",
+      "price": 42000,
+      "image": "/images/new/new4.jpg",
+      "badge": "NEW"
+    }
+  ]
+}

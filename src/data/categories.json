@@ -1,0 +1,38 @@
+[
+  {
+    "id": "food",
+    "name": "사료",
+    "icon": "Bone",
+    "subcategories": ["건식 사료", "습식 사료", "기능성 사료"]
+  },
+  {
+    "id": "treat",
+    "name": "간식",
+    "icon": "Cookie",
+    "subcategories": ["저칼로리 간식", "덴탈 간식", "수제 간식"]
+  },
+  {
+    "id": "toy",
+    "name": "장난감",
+    "icon": "ToyBrick",
+    "subcategories": ["노즈워크", "터그놀이", "인형"]
+  },
+  {
+    "id": "clothing",
+    "name": "의류",
+    "icon": "Shirt",
+    "subcategories": ["봄가을 옷", "겨울 패딩", "레인코트"]
+  },
+  {
+    "id": "walk",
+    "name": "산책",
+    "icon": "Footprints",
+    "subcategories": ["하네스", "리드줄", "산책 가방"]
+  },
+  {
+    "id": "hygiene",
+    "name": "위생",
+    "icon": "Droplets",
+    "subcategories": ["샴푸", "구강 케어", "배변 용품"]
+  }
+]
