@@ -55,6 +55,14 @@
       "price": 34000,
       "image": "/images/best/best7.jpg",
       "badge": null
+    },
+    {
+      "id": "best-8",
+      "name": "몽글 파스텔 하네스 세트",
+      "category": "산책",
+      "price": 39000,
+      "image": "/images/best/best8.jpg",
+      "badge": null
     }
   ],
   "new": [

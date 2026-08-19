@@ -5,7 +5,7 @@ import Typography from '@mui/material/Typography';
 import ProductCard from '../common/product-card.jsx';
 import products from '../../data/products.json';
 
-/** best_item — 베스트 상품 7종, 4열(데스크탑) / 2열(모바일) */
+/** best_item — 베스트 상품 8종, 4열(데스크탑) / 2열(모바일) */
 function BestItems() {
   return (
     <Box component="section" id="best" sx={{ my: { xs: 10, md: 15 } }}>
