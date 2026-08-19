@@ -40,7 +40,7 @@ function Header({ cartCount = 0 }) {
 
         <a href="/" className="mg-header__logo">
           <h1>
-            <img src={withBase('/images/logo/mongle-paw.png')} alt="" className="mg-header__logo-symbol" />
+            <img src={withBase('/images/logo/mongle-logo-knit.png')} alt="" className="mg-header__logo-symbol" />
             <span className="mg-header__logo-text">몽글</span>
           </h1>
         </a>
