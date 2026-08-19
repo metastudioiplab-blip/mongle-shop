@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Heart } from 'lucide-react';
+import { withBase } from '../../utils/asset-url.js';
 import './product-card.css';
 
 /**
@@ -17,7 +18,7 @@ function ProductCard({ product }) {
   return (
     <article className="mg-product-card">
       <div className="mg-product-card__media">
-        <img src={product.image} alt={product.name} />
+        <img src={withBase(product.image)} alt={product.name} />
         {product.badge && <span className="mg-product-card__badge">{product.badge}</span>}
         <button
           type="button"

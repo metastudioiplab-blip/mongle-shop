@@ -1,12 +1,13 @@
 import { useEffect, useRef, useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { withBase } from '../../utils/asset-url.js';
 import './main-banner.css';
 
 const SLIDES = [
   {
     id: 1,
     type: 'image',
-    src: '/images/banner/banner1.jpg',
+    src: withBase('/images/banner/banner1.jpg'),
     caption: '말랑하고 부드러운 것들, 몽글',
     ctaLabel: '베스트 보러가기',
     ctaHref: '#best',
@@ -14,7 +15,7 @@ const SLIDES = [
   {
     id: 2,
     type: 'video',
-    src: '/video/video2.mp4',
+    src: withBase('/video/video2.mp4'),
     caption: '신나는 우리 아이들',
     ctaLabel: '신상품 보러가기',
     ctaHref: '#new',
@@ -22,7 +23,7 @@ const SLIDES = [
   {
     id: 3,
     type: 'image',
-    src: '/images/banner/banner3.jpg',
+    src: withBase('/images/banner/banner3.jpg'),
     caption: '오늘도 몽글몽글한 산책',
     ctaLabel: '산책 용품 보러가기',
     ctaHref: '#walk',
@@ -30,7 +31,7 @@ const SLIDES = [
   {
     id: 4,
     type: 'video',
-    src: '/video/video1.mp4',
+    src: withBase('/video/video1.mp4'),
     caption: '함께라서 더 몽글몽글',
     ctaLabel: '몽글 이야기 보러가기',
     ctaHref: '#story',

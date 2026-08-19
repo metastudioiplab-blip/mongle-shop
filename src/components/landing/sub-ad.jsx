@@ -1,12 +1,13 @@
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
+import { withBase } from '../../utils/asset-url.js';
 
 const GALLERY_ITEMS = [
-  { id: 'baby1', src: '/images/story/baby1.jpg', caption: '몽글이랑 첫 만남', handle: '@콩이네' },
-  { id: 'baby2', src: '/images/story/baby2.jpg', caption: '햇살 좋은 날, 나란히', handle: '@보리하루' },
-  { id: 'baby3', src: '/images/story/baby3.jpg', caption: '여름엔 커플룩', handle: '@수박이네' },
-  { id: 'baby4', src: '/images/story/baby4.jpg', caption: '쌍둥이 니트 데뷔', handle: '@초코네' },
+  { id: 'baby1', src: withBase('/images/story/baby1.jpg'), caption: '몽글이랑 첫 만남', handle: '@콩이네' },
+  { id: 'baby2', src: withBase('/images/story/baby2.jpg'), caption: '햇살 좋은 날, 나란히', handle: '@보리하루' },
+  { id: 'baby3', src: withBase('/images/story/baby3.jpg'), caption: '여름엔 커플룩', handle: '@수박이네' },
+  { id: 'baby4', src: withBase('/images/story/baby4.jpg'), caption: '쌍둥이 니트 데뷔', handle: '@초코네' },
 ];
 
 /** sub_ad — 몽글 이야기, 인스타 피드 스타일 사진 갤러리 */
